@@ -8,6 +8,7 @@ end
 gem 'spree', '~> 3.3'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
+gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
