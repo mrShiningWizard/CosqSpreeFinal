@@ -1,24 +1,6 @@
-# README
+try to launch -$ rails s
+if anything, follow these instructions:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://guides.spreecommerce.org/developer/getting_started_tutorial.html#logging-into-the-backend
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+keep in mind though that all gems are in place, and necessary registrations have been completed.
