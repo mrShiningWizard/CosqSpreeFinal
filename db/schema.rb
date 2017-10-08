@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20171008041210) do
+ActiveRecord::Schema.define(version: 20171008042531) do
 
   create_table "friendly_id_slugs", force: :cascade do |t|
     t.string "slug", null: false
@@ -92,6 +92,19 @@ ActiveRecord::Schema.define(version: 20171008041210) do
     t.string "api_key"
     t.string "api_secret"
     t.boolean "active"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "spree_bookkeeping_documents", force: :cascade do |t|
+    t.string "printable_type"
+    t.integer "printable_id"
+    t.string "template"
+    t.string "number"
+    t.string "firstname"
+    t.string "lastname"
+    t.string "email"
+    t.decimal "total", precision: 12, scale: 2
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
