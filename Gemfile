@@ -13,6 +13,8 @@ gem 'spree_social', github: 'spree-contrib/spree_social'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_related_products', github: 'spree-contrib/spree_related_products'
 gem 'spree_print_invoice', github: 'spree-contrib/spree_print_invoice', branch: 'master'
+gem 'spree_multi_vendor', github: 'spark-solutions/spree_multi_vendor'
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'

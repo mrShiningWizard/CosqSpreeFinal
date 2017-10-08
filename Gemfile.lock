@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/spark-solutions/spree_multi_vendor.git
+  revision: a122e3acdee06b2107fc3b011dade9aa133ec475
+  specs:
+    spree_multi_vendor (0.0.1.alpha)
+      spree_core (>= 3.1.0, < 4.0)
+      spree_extension
+
+GIT
   remote: https://github.com/spree-contrib/spree_print_invoice.git
   revision: e99527a241bbc6d91ba2f4c3b851c8dc68d70310
   branch: master
@@ -466,6 +474,7 @@ DEPENDENCIES
   spree (~> 3.3)
   spree_auth_devise (~> 3.3)
   spree_gateway (~> 3.3)
+  spree_multi_vendor!
   spree_print_invoice!
   spree_related_products!
   spree_reviews!
